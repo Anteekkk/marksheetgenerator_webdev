@@ -1,0 +1,53 @@
+<%- include("header") -%>
+
+<h1>Add Data</h1>
+
+
+<form method="post" action="/">
+    <div class="form-input">
+        <label for="log-in">Roll No.</label>
+<input type="number" name="rno" class="form-control" required autofocus id="log-in">
+<label for="log-in">Name</label>
+<input type="text" name="name" class="form-control" required autofocus id="log-in">
+
+</div>
+<div class="form-input">
+    <label for="log-in">Class</label>
+<input type="number" name="class" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Section</label>
+<input type="text" name="section" class="form-control" required>
+</div>
+<div class="new">
+<div class="form-input new1">
+    <label for="log-in">Subject code</label>
+<input type="number" name="scode" class="form-control" required>
+</div>
+<div class="form-input new1">
+    <label for="log-in">Subject Name</label>
+<input type="text" name="sname" class="form-control" required>
+</div><div class="form-input new1">
+    <label for="log-in">Max Marks</label>
+<input type="number" name="mm" class="form-control" required>
+</div><div class="form-input new1">
+    <label for="log-in">Min Marks</label>
+<input type="number" name="min" class="form-control" required>
+</div>
+</div>
+<div class="form-input">
+    <label for="log-in">Marks Attained</label>
+<input type="number" name="ip" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Term</label>
+<input type="number" name="term" class="form-control" required>
+</div>
+<button type="submit" name="button" class="btn btn-primary">Publish</button>
+</form>
+
+
+
+
+
+<%- include("footer") -%>

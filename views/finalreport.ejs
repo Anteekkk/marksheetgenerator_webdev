@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<h1>Final Marksheet of the Student</h1>
+
+
+<ul class="list-group list-group-horizontal">
+    <label for="name">NAME</label>
+  <li class="list-group-item" id="name"><%= na %></li>
+    <label for="name">ROLL NO.</label>
+  <li class="list-group-item"><%= rno %></li>
+    <label for="name">FATHER'S NAME</label>
+  <li class="list-group-item"><%= fname %></li>
+  <label for="name">CLASS</label>
+  <li class="list-group-item"><%= cla %></li>
+  <label for="name">SECTION</label>
+  <li class="list-group-item"><%= section %></li>
+  <% mark.forEach(function(m){ %>
+    <label for="name">SUBJECT</label>
+    <li class="list-group-item"><%= m.subject %></li>
+    <label for="name">MARKS OBTAINED</label>
+    <li class="list-group-item"><%= m.marks %></li>
+    
+
+  <% }) %>
+  
+
+</ul>
+
+
+
+
+<%- include("footer") -%>

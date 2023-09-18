@@ -1,0 +1,32 @@
+<%- include("header") -%>
+
+<h1>Get Marksheet of the Student</h1>
+
+
+<form method="post" action="/getre">
+    <div class="form-input">
+        <label for="log-in">Roll No.</label>
+<input type="number" name="r" class="form-control" required autofocus >
+<label for="log-in">Name</label>
+<input type="text" name="n" class="form-control" required autofocus >
+
+</div>
+<div class="form-input">
+    <label for="log-in">Class</label>
+<input type="number" name="class" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Section</label>
+<input type="text" name="section" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Term</label>
+<input type="number" name="term" class="form-control" required>
+</div>
+<button type="submit" name="button" class="btn btn-primary">Publish</button>
+</form>
+
+
+
+
+<%- include("footer") -%>

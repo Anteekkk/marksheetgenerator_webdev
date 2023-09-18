@@ -1,0 +1,61 @@
+<%-include("header") -%>
+
+<h1>Add STUDENT</h1>
+<form  class="it" method="post" action="/students">
+    <div class="form-input">
+        <label for="log-in">Name</label>
+<input type="text" name="name" class="form-control" required autofocus id="log-in">
+</div>
+<div class="form-input">
+    <label for="log-in">Roll No.</label>
+<input type="number" name="rno" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Father's Name</label>
+<input type="text" name="father" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Mother's Name</label>
+<input type="text" name="mother" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Gender</label>
+<input type="text" name="gen" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Contact Number</label>
+<input type="number" name="contact" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Email</label>
+<input type="email" name="mail" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Date-Of-Birth</label>
+<input type="date" name="dob" class="form-control" required>
+</div>
+<div class="form-input">
+    <label for="log-in">Class</label>
+<input type="number" name="class" class="form-control" required></textarea>
+</div>
+<div class="form-input">
+    <label for="log-in">Section</label>
+<input type="text" name="sec" class="form-control" required></textarea>
+</div>
+<div class="form-input">
+    <label for="log-in">Address</label>
+<textarea type="address" name="address" cols="30" rows="4" class="form-control" required></textarea>
+</div>
+
+
+
+
+
+<div class="form-input">
+<button type="submit" name="button" class="btn btn-primary">Publish</button>
+</div>
+</form>
+
+
+
+<%-include("footer") -%>
